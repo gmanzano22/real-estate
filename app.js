@@ -23,6 +23,7 @@ function callLeboncoin() {
                 type: $( lbcDataArray.get( 2 ) ).text().trim().toLowerCase(),
                 surface: parseInt( $( lbcDataArray.get( 4 ) ).text().replace( /\s/g, '' ), 10 )
 
+
             }
             console.log( "data", lbcData );
         }
